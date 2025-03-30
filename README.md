@@ -17,32 +17,22 @@ Automatically calculate the mass of GameObjects in Unity based on volume and den
 1. **Right-click** a GameObject in the **Hierarchy**  
    → Select `Add AutoMass`
 
-   📷 _Screenshot Placeholder: Right-click context menu_
+   ![AutoMass Overview](Documentation/ObjectMenu.png)
 
 2. The `AutoMass` component will appear on the selected GameObject.  
+   ![AutoMass Overview](Documentation/Component.png)
    - Choose a **preset material** or enter a **custom density** (kg/m³).
 
-   📷 _Screenshot Placeholder: AutoMass component UI_
+   ![AutoMass Overview](Documentation/Component2.png)
 
 3. Open **AutoMass Settings** to modify presets or voxel resolution.
 
-   📷 _Screenshot Placeholder: Settings window_
+   ![AutoMass Overview](Documentation/Settings.png)
 
 4. On any GameObject with a `Rigidbody`, click **"Apply AutoMass"** at the bottom of the Rigidbody inspector.  
    → The mass of all child AutoMass components will be summed and applied.
 
-   📷 _Screenshot Placeholder: Rigidbody with Apply AutoMass button_
-
----
-
-## ⚙️ Customization
-
-### Density Presets
-Open `Window > AutoMass > Settings` to:
-- Edit or add material presets (e.g., Ice, Lead, Plastic)
-- Adjust voxel size (smaller = higher accuracy, slower)
-
-📷 _Screenshot Placeholder: Settings - Editing presets_
+   ![AutoMass Overview](Documentation/Rigidbody.png)
 
 ---
 
