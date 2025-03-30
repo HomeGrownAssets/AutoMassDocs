@@ -17,7 +17,7 @@ Automatically calculate the mass of GameObjects in Unity based on volume and den
 1. **Right-click** a GameObject in the **Hierarchy**  
    → Select `Add AutoMass`
 
-   ![AutoMass Overview](Documentation/ObjectMenu.png)
+   <img src="Documentation/ObjectMenu.png" alt="AutoMass Overview" style="width: 400px;"/>
 
 2. The `AutoMass` component will appear on the selected GameObject.  
    ![AutoMass Overview](Documentation/Component.png)
