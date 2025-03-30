@@ -20,7 +20,7 @@ Automatically calculate the mass of GameObjects in Unity based on volume and den
    <img src="Documentation/ObjectMenu.png" alt="AutoMass Overview" style="width: 400px;"/>
 
 2. The `AutoMass` component will appear on the selected GameObject.  
-   <img src="Documentation/Component.png" alt="AutoMass Overview" style="width: 400px;"/><br>
+   <img src="Documentation/Component.png" alt="AutoMass Overview" style="width: 400px;"/><\br>
    Choose a **preset material** or enter a **custom density** (kg/m³).
 
    <img src="Documentation/Component2.png" alt="AutoMass Overview" style="width: 400px;"/>
