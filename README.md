@@ -19,9 +19,13 @@ Automatically calculate the mass of GameObjects in Unity based on volume and den
 
    <img src="Documentation/ObjectMenu.png" alt="AutoMass Overview" style="width: 400px;"/>
 
+   You can also select multiple Gameobjects at once
+
 2. The `AutoMass` component will appear on the selected GameObject.
    
    <img src="Documentation/Component.png" alt="AutoMass Overview" style="width: 400px;"/>
+
+   Press `Compute` to recompute the volume and the mass at any time applying the current settings.
    
    Choose a **preset material** or enter a **custom density** (kg/m³).
 
@@ -31,7 +35,10 @@ Automatically calculate the mass of GameObjects in Unity based on volume and den
 
    <img src="Documentation/Settings.png" alt="AutoMass Overview" style="width: 400px;"/>
 
-4. On any GameObject with a `Rigidbody`, click **"Apply AutoMass"** at the bottom of the Rigidbody inspector.  
+   Smaller voxelsizes increase the precision.
+   if `ApplyToChildren` is active, `Add AutoMass` will add an `AutoMass` component to all the renderers in the selected gameobjects' children.
+
+5. On any GameObject with a `Rigidbody`, click **"Apply AutoMass"** at the bottom of the Rigidbody inspector.  
    → The mass of all child AutoMass components will be summed and applied.
 
    <img src="Documentation/Rigidbody.png" alt="AutoMass Overview" style="width: 400px;"/>
@@ -40,8 +47,7 @@ Automatically calculate the mass of GameObjects in Unity based on volume and den
 
 ## 📌 Notes
 - Volume is estimated using voxelization of the object's mesh.
-- Make sure your MeshRenderer or SkinnedMeshRenderer is present for accurate results.
-- Best suited for static or semi-static objects with defined geometry.
+- Best suited for watertight meshes without holes.
 
 ---
 
@@ -53,15 +59,14 @@ Automatically calculate the mass of GameObjects in Unity based on volume and den
 
 ## 🧪 Compatibility
 - Unity 2020.3 and above
-- Works in both URP and HDRP
+- Works in Standard, Universal and High Definition pipeline
 - No third-party dependencies
 
 ---
 
 ## 📮 Support
 For questions, feature requests, or bug reports:  
-📧 your@email.com  
-🐛 GitHub Issues: [link if available]
+📧 v.roller.uni@gmail.com  
 
 ---
 
