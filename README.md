@@ -32,13 +32,14 @@ Automatically calculate the mass of GameObjects in Unity based on volume and den
    <img src="Documentation/Component2.png" alt="AutoMass Overview" style="width: 400px;"/>
 
 3. Open **AutoMass Settings** to modify presets or voxel resolution.
+   Open `AutoMass > Settings` to open the settings window
 
    <img src="Documentation/Settings.png" alt="AutoMass Overview" style="width: 400px;"/>
 
    Smaller voxelsizes increase the precision.
    if `ApplyToChildren` is active, `Add AutoMass` will add an `AutoMass` component to all the renderers in the selected gameobjects' children.
 
-5. On any GameObject with a `Rigidbody`, click **"Apply AutoMass"** at the bottom of the Rigidbody inspector.  
+4. On any GameObject with a `Rigidbody`, click **"Apply AutoMass"** at the bottom of the Rigidbody inspector.  
    → The mass of all child AutoMass components will be summed and applied.
 
    <img src="Documentation/Rigidbody.png" alt="AutoMass Overview" style="width: 400px;"/>
