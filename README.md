@@ -33,7 +33,7 @@ Automatically calculate the mass of GameObjects in Unity based on volume and den
 
 3. Open **AutoMass Settings** to modify presets or voxel resolution.
 
-   Open `AutoMass > Settings` to open the settings window
+   Open `Window > AutoMass > Settings` to open the settings window
 
    <img src="Documentation/Settings.png" alt="AutoMass Overview" style="width: 400px;"/>
 
