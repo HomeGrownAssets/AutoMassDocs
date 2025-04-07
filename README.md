@@ -50,6 +50,9 @@ Automatically calculate the mass of GameObjects in Unity based on volume and den
 ## 📌 Notes
 - Volume is estimated using voxelization of the object's mesh.
 - Best suited for watertight meshes without holes.
+- Comming soon:
+a new version is currently in review. It includes bug fixes concerning a bug leading to compile errors when building the project.
+The new version will be released in the next few days.
 
 ---
 
